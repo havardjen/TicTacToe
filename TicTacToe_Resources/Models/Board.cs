@@ -8,9 +8,10 @@ namespace TicTacToe_Resources.Models
 {
     public class Board
     {
-        public Board(int size)
+        public Board(int size, Cell[,] cells)
         {
             _size = size;
+            Cells = cells;
         }
 
         private readonly int _size;

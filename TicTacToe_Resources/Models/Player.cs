@@ -8,6 +8,12 @@ namespace TicTacToe_Resources.Models
 {
     public class Player
     {
+        public Player(PlayerType typeOfPlayer)
+        {
+            TypeOfPlayer = typeOfPlayer;
+        }
+
+        public PlayerType TypeOfPlayer { get; set; }
     }
 
     public enum PlayerType

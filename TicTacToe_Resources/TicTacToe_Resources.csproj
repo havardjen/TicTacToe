@@ -19,5 +19,9 @@
 	<ItemGroup Condition="'$(Configuration)' == 'Release'">
 		<Compile Remove="**\*_Tests.cs" />
 	</ItemGroup>
+	
+	<ItemGroup>
+	  <Folder Include="Interfaces\" />
+	</ItemGroup>
 
 </Project>
